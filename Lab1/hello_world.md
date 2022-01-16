@@ -1,5 +1,4 @@
-```
-ruby
+```ruby
 
 
 package hello_world;
@@ -17,3 +16,4 @@ public class Hello_world {
     }
     
 }
+```
