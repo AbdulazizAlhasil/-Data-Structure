@@ -1,7 +1,7 @@
 ```ruby
 
 package com.hello_world;
-
+import java.util.Scanner;
 public class array_of_ten_elements {
     public static void main (String[] args) {
      
