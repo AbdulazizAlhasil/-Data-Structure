@@ -5,32 +5,32 @@ import lab3.Stack;
 
 public class AddStack {
     public static void main (String[] args) {
-        Stack<String> stack1 = new ArrayStack<String>(6);
-        Stack<String> stack2 = new ArrayStack<String>(6);
+        Stack<String> s1 = new ArrayStack<String>(6);
+        Stack<String> s2 = new ArrayStack<String>(6);
 
-        stack1.push("Khaled");
-        stack1.push("salem");
-        stack1.push("ahmad");
-        stack1.push("emad");
+        s1.push("Khaled");
+        s1.push("salem");
+        s1.push("ahmad");
+        s1.push("emad");
 
-        StackOpration.transfer(stack1, stack2);
+        StackOpration.transfer(s1, s2);
 
-        System.out.println(stack2.top());
-        stack2.pop();
-        System.out.println(stack2.top());
-        stack2.pop();
-        System.out.println(stack2.top());
-        stack2.pop();
-        System.out.println(stack2.top());
-        stack2.pop();
+        System.out.println(s2.top());
+        s2.pop();
+        System.out.println(s2.top());
+        s2.pop();
+        System.out.println(s2.top());
+        s2.pop();
+        System.out.println(s2.top());
+        s2.pop();
 
-        stack1.push("Khaled");
-        stack1.push("salem");
-        stack1.push("ahmad");
-        stack1.push("emad");
+        s1.push("Khaled");
+        s1.push("salem");
+        s1.push("ahmad");
+        s1.push("emad");
 
-        System.out.println(stack1.size());
-        StackOpration.empty(stack1);
-        System.out.println(stack1.size());
+        System.out.println(s1.size());
+        StackOpration.empty(s1);
+        System.out.println(s1.size());
     }
 }
